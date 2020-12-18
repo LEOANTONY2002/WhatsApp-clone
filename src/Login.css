@@ -1,0 +1,25 @@
+.login {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cont {
+    padding: 60px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px 3px rgba(48, 207, 16, 0.877);
+}
+.cont > img {
+    margin-bottom: 40px;
+    object-fit: contain;
+    width: 100px;
+}
+.cont > button {
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: #0a8d48 !important;
+    color: white;
+}
